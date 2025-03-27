@@ -5,8 +5,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/MchlAlex/fc-lab01/config"
-	"github.com/MchlAlex/fc-lab01/internal/infra/web"
+	"github.com/MchlAlex/fc-lab02/config"
+	"github.com/MchlAlex/fc-lab02/internal/infra/web"
 )
 
 func main() {

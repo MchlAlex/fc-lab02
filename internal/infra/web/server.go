@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/MchlAlex/fc-lab01/config"
-	"github.com/MchlAlex/fc-lab01/handler"
-	"github.com/MchlAlex/fc-lab01/internal/service"
+	"github.com/MchlAlex/fc-lab02/config"
+	"github.com/MchlAlex/fc-lab02/handler"
+	"github.com/MchlAlex/fc-lab02/internal/service"
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"

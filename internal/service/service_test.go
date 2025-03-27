@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	// Ajuste o import path se necessário
-	"github.com/MchlAlex/fc-lab01/internal/entity"
+	"github.com/MchlAlex/fc-lab02/internal/entity"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"

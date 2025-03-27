@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"regexp"
 
-	"github.com/MchlAlex/fc-lab01/internal/entity"
+	"github.com/MchlAlex/fc-lab02/internal/entity"
 )
 
 // LocationFinder define a interface para buscar localização por CEP.

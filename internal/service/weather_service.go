@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/MchlAlex/fc-lab01/internal/entity"
+	"github.com/MchlAlex/fc-lab02/internal/entity"
 )
 
 // WeatherFinder define a interface para buscar o clima por cidade.

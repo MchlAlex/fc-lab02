@@ -1,4 +1,4 @@
-# Desafio Go Weather API (fc-lab01)
+# Desafio Go Weather API (fc-lab02)
 
 [![Go Version](https://img.shields.io/badge/Go-1.19+-blue.svg)](https://golang.org/)
 [![Docker](https://img.shields.io/badge/Docker-Required-blue?logo=docker)](https://www.docker.com/)
@@ -31,7 +31,7 @@ O sistema foi desenvolvido para ser containerizado com Docker e publicado no Goo
 
 1.  **Clone o repositório:**
     ```bash
-    git clone https://github.com/MchlAlex/fc-lab01.git
+    git clone https://github.com/MchlAlex/fc-lab02.git
     cd fc-lab01
     ```
 

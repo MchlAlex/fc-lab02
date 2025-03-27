@@ -6,8 +6,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/MchlAlex/fc-lab01/internal/entity"
-	"github.com/MchlAlex/fc-lab01/internal/service"
+	"github.com/MchlAlex/fc-lab02/internal/entity"
+	"github.com/MchlAlex/fc-lab02/internal/service"
 
 	"github.com/go-chi/chi/v5"
 )

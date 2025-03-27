@@ -8,8 +8,8 @@ import (
 	"testing"
 
 	// Ajuste o import path para o seu projeto, se necessário
-	"github.com/MchlAlex/fc-lab01/internal/entity"
-	"github.com/MchlAlex/fc-lab01/internal/service"
+	"github.com/MchlAlex/fc-lab02/internal/entity"
+	"github.com/MchlAlex/fc-lab02/internal/service"
 
 	"github.com/go-chi/chi/v5"
 	"github.com/stretchr/testify/assert"

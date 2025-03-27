@@ -1,4 +1,4 @@
-module github.com/MchlAlex/fc-lab01
+module github.com/MchlAlex/fc-lab02
 
 go 1.24.1
 
