@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  weather-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: weather_service_app
+    ports:
+      - "8080:8080"
+    env_file:
+      - .env

@@ -1,0 +1,22 @@
+### Teste 1: CEP Válido (Exemplo: Avenida Paulista)
+# @name TesteSucesso
+GET http://localhost:8080/weather/01311000
+Accept: application/json
+
+
+### Teste 2: CEP com Formato Inválido (Menos de 8 dígitos)
+# @name TesteFormatoInvalido
+GET http://localhost:8080/weather/12345
+Accept: application/json
+
+
+### Teste 3: CEP Não Encontrado (CEP inexistente)
+# @name TesteNaoEncontrado
+GET http://localhost:8080/weather/99999999
+Accept: application/json
+
+
+### Teste 4: CEP Válido (Outro Exemplo: Centro, Rio de Janeiro)
+# @name TesteSucessoRJ
+GET http://localhost:8080/weather/20010000
+Accept: application/json
