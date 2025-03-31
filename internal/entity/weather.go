@@ -15,6 +15,7 @@ type WeatherAPIResponse struct {
 
 // WeatherOutput representa a resposta final da nossa API.
 type WeatherOutput struct {
+	City  string  `json:"city"`
 	TempC float64 `json:"temp_C"` // Temperatura em Celsius
 	TempF float64 `json:"temp_F"` // Temperatura em Fahrenheit
 	TempK float64 `json:"temp_K"` // Temperatura em Kelvin

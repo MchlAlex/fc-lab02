@@ -64,11 +64,17 @@ func (h *WeatherHandler) GetWeatherByCEP(w http.ResponseWriter, r *http.Request)
 		return
 	}
 
-	// 3. Converter temperaturas
+	// 3. Converter temperaturas e incluir a cidade
 	weatherOutput := h.Converter.ConvertTemperatures(tempC)
+	finalResponse := &entity.WeatherOutput{
+		City:  city, // ✅ Inclui a cidade
+		TempC: weatherOutput.TempC,
+		TempF: weatherOutput.TempF,
+		TempK: weatherOutput.TempK,
+	}
 
 	// 4. Responder com sucesso
 	w.Header().Set("Content-Type", "application/json")
-	w.WriteHeader(http.StatusOK) // 200
-	json.NewEncoder(w).Encode(weatherOutput)
+	w.WriteHeader(http.StatusOK)             // 200
+	json.NewEncoder(w).Encode(finalResponse) // ✅ Envia o struct completo com "city"
 }
