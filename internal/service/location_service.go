@@ -30,7 +30,7 @@ func NewViaCEPService(client *http.Client) *ViaCEPService {
 }
 
 var (
-	ErrInvalidCEPFormat = errors.New("invalid zipcode format")
+	ErrInvalidCEPFormat = errors.New("invalid zipcode")
 	ErrCEPNotFound      = errors.New("can not find zipcode")
 )
 
